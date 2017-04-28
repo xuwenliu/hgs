@@ -1,0 +1,58 @@
+*,::after,::before{
+	margin: 0;
+	padding: 0;
+	/*清除移动端默认点击高亮显示*/
+	-webkit-tap-highlight-color: transparent;
+	/*设置所有都是以边框开始计算宽度*/
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	font: 14px/1.5 Tahoma, Helvetica, Arial, sans-serif;
+	background-color: #f5f1ee;
+	-webkit-user-select: none;
+	color: #787878;
+}
+a{
+	text-decoration: none;
+	cursor: pointer;
+	outline: none;
+}
+a:hover{
+	text-decoration: none;
+}
+input,button{
+	border: none;
+	outline: none;
+	/*清除移动端的默认表单样式*/
+	-webkit-appearance: none;
+}
+ul li,ol li{
+	list-style: none;
+}
+img{
+	display: block;
+	width: 100%;
+	border: none;
+}
+.f-left{
+	float: left!important;
+}
+.f-right{
+	float: right!important;
+}
+.clearfix{
+	display: table;/*触发bfc，让其具有包裹性*/
+}
+.clearfix::after,.clearfix::before{
+	content: "";
+	height: 0;
+	line-height: 0;
+	display: block;
+	visibility: hidden;
+	clear: both;
+}
+.mt0-2{
+	margin-top: 0.2rem;
+}
+

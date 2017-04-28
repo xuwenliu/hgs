@@ -1,0 +1,15 @@
+	
+{
+    "productlist":[
+	    { "img":"../static/img/homeList/homelist1.jpg"},
+		{ "img":"../static/img/homeList/homelist2.jpg"},
+		{ "img":"../static/img/homeList/homelist3.jpg"},
+		{ "img":"../static/img/homeList/homelist4.jpg"},
+		{ "img":"../static/img/homeList/homelist5.jpg"}
+	],
+	"lunbo":[
+	    { "img":"../static/img/lunboImg/lunbo1.jpg"},
+	    { "img":"../static/img/lunboImg/lunbo2.jpg"}
+	]
+}
+
